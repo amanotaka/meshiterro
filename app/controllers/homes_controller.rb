@@ -4,8 +4,5 @@ class HomesController < ApplicationController
   
   def about
   end
-  
-  def new
-    @post_image = PostImage.new
-  end
+
 end
